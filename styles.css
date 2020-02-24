@@ -1,0 +1,46 @@
+#game-board {
+    display:flex;
+    justify-content: space-between;
+    width: 1000px;
+    font-size: 50px;
+    align-items:stretch;
+}
+
+#player-container {
+    display: flex;
+    flex-direction: column;
+}
+#choices {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+#computer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#results-container {
+font-size: 20px;
+width: 800px;
+text-align: center;
+}
+
+#running-tally {
+    font-size: 16px;
+    width:800px;
+    text-align: center;
+}
+#rock {
+    height : 200px;
+    width : 200px;
+}
+#paper {
+    height : 200px;
+    width : 200px;
+}
+#scissors {
+    height : 200px;
+    width : 200px;
+}
