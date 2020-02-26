@@ -4,16 +4,14 @@
     width: 1000px;
     font-size: 50px;
     align-items:stretch;
+    padding: var(--spacer);
 }
 
 #player-container {
     display: flex;
     flex-direction: column;
-}
-#choices {
-    display: flex;
-    flex-direction: column;
-    text-align:center;
+    --spacer: 2rem;
+    margin: auto;
 }
 
 #computer-container {
@@ -35,12 +33,15 @@ text-align: center;
 #rock {
     height : 200px;
     width : 200px;
+    border-width: 5px;
 }
 #paper {
     height : 200px;
     width : 200px;
+    border-width: 5px;
 }
 #scissors {
     height : 200px;
     width : 200px;
+    border-width: 5px;
 }
