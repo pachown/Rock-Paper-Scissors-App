@@ -14,8 +14,8 @@
     </head>
     <body>
         <div id=game-board>
-            <div id=player-container player-choices>
-                <p>Click Your Choice</p>
+            <div id = player-container player-choices>
+                <p id = playerChoiceBox>Your Choice</p>
                 <div>
                     <input type='image' src ='images\Rock.png' height = '200' width = '200' id = rock>
                 </div>
@@ -26,16 +26,16 @@
                     <input type='image' src = 'images\Scissors.png' height = '200' width = '200' id = scissors>
                 </div>
             </div>
-            <div id=computer-container>
-                <p>Computer's Choice</p>
+            <div id = computer-container>
+                <p id = computerChoiceBox>Computer</p>
                 <div id=rock>
-                    <img src ='images\Rock.png'height = '200' width = '200'>
+                    <img src ='images\Rock.png'height = '200' width = '200' id = computerrock>
                 </div>
                 <div id=paper>
-                    <img src = 'images\Paper.png'height = '200' width = '200'>
+                    <img src = 'images\Paper.png'height = '200' width = '200' id = computerpaper>
                 </div>
                 <div id=scissors>
-                    <img src = 'images\Scissors.png' height = '200' width = '200'>
+                    <img src = 'images\Scissors.png' height = '200' width = '200' id = computerscissors>
                 </div>
             </div>
         </div>
@@ -43,7 +43,12 @@
             <p>Victory, Defeat or Draw</p>
         </div>
         <div id=running-tally>
-            <p>Victories: ## Defeats ## Draws ##</p>
+            <div>Victories</div>
+            <div id = victories>###</div>
+            <div>Defeats</div>
+            <div id = defeats>###</div>
+            <div>Draws</div>
+            <div id = draws>###</div>
         </div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>

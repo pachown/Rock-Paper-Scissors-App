@@ -1,3 +1,11 @@
+body {
+    background-image: url(/images/Background.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 600px 600px;
+    background-color: rgb(180, 179, 179);
+}
+
 #game-board {
     display:flex;
     justify-content: space-between;
@@ -5,6 +13,8 @@
     font-size: 50px;
     align-items:stretch;
     padding: var(--spacer);
+    background-attachment: fixed;
+    margin: auto;
 }
 
 #player-container {
@@ -12,22 +22,32 @@
     flex-direction: column;
     --spacer: 2rem;
     margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #computer-container {
     display: flex;
     flex-direction: column;
+    --spacer: 2rem;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #results-container {
 font-size: 20px;
-width: 800px;
+width: 1000px;
 text-align: center;
+margin:auto;
 }
 
 #running-tally {
+    margin: auto;
     font-size: 16px;
-    width:800px;
+    width:1000px;
     text-align: center;
 }
 #rock {
