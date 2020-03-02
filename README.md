@@ -16,7 +16,7 @@ Play it [here](https://pachown.github.io/)
 
 This is my first game made from scratch in Javascript and I enjoyed making it immensely. 
 
-My favorite parts were figuring out the logic of who wins in specific scenarios and creating the many different messages that appear depending on which player won with which combination. 
+My favorite parts were figuring out the logic of who wins in specific scenarios and creating the dozens of different messages that can appear depending on which player won with which combination. 
 
 Dev Notes: Quality images that are not copyrighted can be difficult to find! 
 
