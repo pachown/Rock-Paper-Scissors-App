@@ -6,7 +6,7 @@ _Rock-Paper-Scissors Game made with Html, CSS & Javascript_
 
 <br>
 
-Watch it [here](https://pachown.github.io/)
+Play it [here](https://pachown.github.io/)
 
 <br>
 
