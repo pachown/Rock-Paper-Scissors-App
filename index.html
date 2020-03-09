@@ -2,57 +2,62 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js" async defer></script>
-    </head>
-    <body>
-        <div id=game-board>
-            <div id = player-container player-choices>
-                <p id = playerChoiceBox>Your Choice</p>
-                <div>
-                    <input type='image' src ='images\Rock.png' height = '200' width = '200' id = rock>
-                </div>
-                <div>
-                    <input type='image' src = 'images\Paper.png' height = '200' width = '200' id = paper>
-                </div>
-                <div>
-                    <input type='image' src = 'images\Scissors.png' height = '200' width = '200' id = scissors>
-                </div>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async defer></script>
+</head>
+
+<body>
+    <div id='game-board'>
+        <div id='player-container' player-choices>
+            <p id='playerChoiceBox'>Your Choice</p>
+            <div>
+                <input id='rock' type='image' src='images\Rock.png' height='200' width='200'>
             </div>
-            <div id = computer-container>
-                <p id = computerChoiceBox>Computer</p>
-                <div id=rock>
-                    <img src ='images\Rock.png'height = '200' width = '200' id = computerrock>
-                </div>
-                <div id=paper>
-                    <img src = 'images\Paper.png'height = '200' width = '200' id = computerpaper>
-                </div>
-                <div id=scissors>
-                    <img src = 'images\Scissors.png' height = '200' width = '200' id = computerscissors>
-                </div>
+            <div>
+                <input id='paper' type='image' src='images\Paper.png' height='200' width='200'>
+            </div>
+            <div>
+                <input  id='scissors' type='image' src='images\Scissors.png' height='200' width='200'>
             </div>
         </div>
-        <div id=results-container>
-            <p>Victory, Defeat or Draw</p>
+        <div id='computer-container'>
+            <p id='computerChoiceBox'>Computer</p>
+            <div id=rock>
+                <img src='images\Rock.png' height='200' width='200' id='computerrock'>
+            </div>
+            <div id='paper'>
+                <img src='images\Paper.png' height='200' width='200' id='computerpaper'>
+            </div>
+            <div id='scissors'>
+                <img src='images\Scissors.png' height='200' width='200' id='computerscissors'>
+            </div>
         </div>
-        <div id=running-tally>
-            <div>Victories</div>
-            <div id = victories>###</div>
-            <div>Defeats</div>
-            <div id = defeats>###</div>
-            <div>Draws</div>
-            <div id = draws>###</div>
-        </div>
-        <!--[if lt IE 7]>
+    </div>
+    <div id='results-container'>
+        <p>Victory, Defeat or Draw</p>
+    </div>
+    <div id='running-tally'>
+        <div>Victories</div>
+        <div id='victories'>###</div>
+        <div>Defeats</div>
+        <div id='defeats'>###</div>
+        <div>Draws</div>
+        <div id='draws'>###</div>
+    </div>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-    </body>
+
+</body>
+
 </html>
