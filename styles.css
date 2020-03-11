@@ -1,10 +1,6 @@
-body {
-    background-image: url(/images/Background.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 600px 600px;
+ body {
     background-color: rgb(180, 179, 179);
-}
+} 
 
 #game-board {
     display:flex;
