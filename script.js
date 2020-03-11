@@ -20,7 +20,6 @@ playerChoices.addEventListener('click', e => {
 
     let playerChoice = '';
     if (e.target.tagName.toLowerCase() === 'input') {
-        document.getElementById('playerChoiceBox').innerHTML = playerChoice;
         document.getElementById('victories').innerHTML = victories;
         document.getElementById('defeats').innerHTML = defeats;
         document.getElementById('draws').innerHTML = draws;
@@ -35,6 +34,7 @@ playerChoices.addEventListener('click', e => {
             playerChoice = 'Scissors';
             document.getElementById('scissors').style.backgroundColor = 'red';
         }
+        document.getElementById('playerChoiceBox').innerHTML = playerChoice;
         let computerChoice = randomChoice();
         document.getElementById('computerChoiceBox').innerHTML = computerChoice;
         let resultsDisplayText = winnerLogic(playerChoice, computerChoice);
@@ -47,9 +47,9 @@ var randomChoice = () => {
 
     let computerChoice = computerChoices[Math.floor(Math.random() * 3)];
     
-        document.getElementById('computerrock').style.backgroundColor = 'white';
-        document.getElementById('computerpaper').style.backgroundColor = 'white';
-        document.getElementById('computerscissors').style.backgroundColor = 'white';
+        document.getElementById('computerrock').style.backgroundColor = 'rgb(180, 179, 179)';
+        document.getElementById('computerpaper').style.backgroundColor = 'rgb(180, 179, 179)';
+        document.getElementById('computerscissors').style.backgroundColor = 'rgb(180, 179, 179)';
 
         if (computerChoice == 'Rock') {
             document.getElementById('computerrock').style.backgroundColor = 'red';
