@@ -10,7 +10,7 @@ Play it [here](https://pachown.github.io/)
 
 <br>
 
-<image src="images/readmeimage.PNG">
+<image src="readmeimage.PNG">
 
 ## Summary
 
