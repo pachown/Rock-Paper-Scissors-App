@@ -5,7 +5,7 @@
 #game-board {
     display:flex;
     justify-content: space-between;
-    width: 1000px;
+    width: auto;
     font-size: 50px;
     align-items:stretch;
     padding: var(--spacer);
